@@ -1,0 +1,19 @@
+<apex:page Controller="vfExamplecontroller">
+<p> Hello World</p>
+    <apex:form>
+        <apex:pageBlock>
+            <apex:pageBlockSection>
+                <apex:pageBlockTable value="{!bob}" var="acct">
+                <apex:column>
+                <apex:inputText value="{!acct.Name}" />
+                <apex:inputText value="{!acct.BillingStreet}" />
+                <apex:inputText value="{!acct.BillingState}" />
+                <apex:inputText value="{!acct.BillingPostalCode}" />
+                <apex:inputText value="{!acct.BillingCity}" />
+                </apex:column>
+            </apex:pageBlockTable>
+            </apex:pageBlocksection>
+            <apex:commandButton action="{!bobsave}" value="save" />
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

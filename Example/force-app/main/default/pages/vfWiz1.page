@@ -1,0 +1,12 @@
+<apex:page controller="vfWizController">
+    <apex:form>
+        <apex:pageBlock>
+            <apex:pageBlockButtons>
+                <apex:commandButton action="{!saveBob}" value="Save" />
+                <apex:commandButton action="{!wiz2}" value="Next" />
+            </apex:pageBlockButtons>
+            <apex:inputText value="{!bob.firstname}"/>
+            <apex:inputText value="{!bob.lastname}"/>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

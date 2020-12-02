@@ -1,0 +1,14 @@
+table {
+    background-color:darkgreen;
+}
+/* The selector of our css, it is select which part of our document we are styling.
+    secondly is our declaration, which consists of curly braces containing key-value pairs.
+    Key-value pairs define what aspect we are stying, and how we are styling them. there are separated by semi-colons.
+*/
+td {
+    color:blue;
+}
+
+.welcome{
+    color: purple; 
+}
